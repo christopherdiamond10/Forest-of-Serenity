@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Animation>
+  <AnimationInfo TotalFrames="8" PartialAnimationCompletionFrame="8" RelativeToScreen="0" />
+  <Frame1 TotalSprites="0" WaitTillNextFrame="40" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="0" CharacterTintRed="0" CharacterTintGreen="0" CharacterTintBlue="0" SoundFilename="" />
+  <Frame2 TotalSprites="1" WaitTillNextFrame="60" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="1" CharacterTintRed="255" CharacterTintGreen="102" CharacterTintBlue="34" SoundFilename="Fire4">
+    <Sprite1 TextureName="Fire1.png" X="-9" Y="-8" W="50" H="50" UVCoordStartX="0" UVCoordStartY="0" UVCoordEndX="0.2" UVCoordEndY="0.5" />
+  </Frame2>
+  <Frame3 TotalSprites="1" WaitTillNextFrame="60" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="1" CharacterTintRed="181" CharacterTintGreen="68" CharacterTintBlue="22" SoundFilename="(No Sound)">
+    <Sprite1 TextureName="Fire1.png" X="-10" Y="-4" W="50" H="50" UVCoordStartX="0.2" UVCoordStartY="0" UVCoordEndX="0.4" UVCoordEndY="0.5" />
+  </Frame3>
+  <Frame4 TotalSprites="1" WaitTillNextFrame="60" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="1" CharacterTintRed="85" CharacterTintGreen="34" CharacterTintBlue="11" SoundFilename="">
+    <Sprite1 TextureName="Fire1.png" X="-24" Y="-32" W="80" H="80" UVCoordStartX="0.2" UVCoordStartY="0" UVCoordEndX="0.4" UVCoordEndY="0.5" />
+  </Frame4>
+  <Frame5 TotalSprites="1" WaitTillNextFrame="70" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="1" CharacterTintRed="85" CharacterTintGreen="34" CharacterTintBlue="11" SoundFilename="(No Sound)">
+    <Sprite1 TextureName="Fire1.png" X="-25" Y="-35" W="80" H="80" UVCoordStartX="0.4" UVCoordStartY="0" UVCoordEndX="0.6" UVCoordEndY="0.5" />
+  </Frame5>
+  <Frame6 TotalSprites="1" WaitTillNextFrame="100" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="1" CharacterTintRed="85" CharacterTintGreen="34" CharacterTintBlue="11" SoundFilename="(No Sound)">
+    <Sprite1 TextureName="Fire1.png" X="-25" Y="-35" W="80" H="80" UVCoordStartX="0.6" UVCoordStartY="0" UVCoordEndX="0.7958333" UVCoordEndY="0.5" />
+  </Frame6>
+  <Frame7 TotalSprites="1" WaitTillNextFrame="80" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="1" CharacterTintRed="85" CharacterTintGreen="34" CharacterTintBlue="11" SoundFilename="">
+    <Sprite1 TextureName="Fire1.png" X="-25" Y="-35" W="80" H="80" UVCoordStartX="0.8" UVCoordStartY="0" UVCoordEndX="0.9958333" UVCoordEndY="0.5" />
+  </Frame7>
+  <Frame8 TotalSprites="1" WaitTillNextFrame="60" TintScreen="0" ScreenTintRed="0" ScreenTintGreen="0" ScreenTintBlue="0" ScreenTintAlpha="255" TintCharacter="1" CharacterTintRed="85" CharacterTintGreen="34" CharacterTintBlue="11" SoundFilename="(No Sound)">
+    <Sprite1 TextureName="Fire1.png" X="-23" Y="-30" W="80" H="80" UVCoordStartX="0" UVCoordStartY="0.5" UVCoordEndX="0.2" UVCoordEndY="1" />
+  </Frame8>
+</Animation>

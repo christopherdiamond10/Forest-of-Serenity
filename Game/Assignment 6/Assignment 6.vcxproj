@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A9E17F67-255E-41EA-87B0-114CB5CEBB50}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Assignment6</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>./bin\x86\</OutDir>
+    <IntDir>./obj\</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>./bin\x86\</OutDir>
+    <IntDir>./obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./include\;./include\Animations\;./include\CoreGame\;./include\Enemies\;./include\FMOD\;./include\Graphical\;./include\Managers and Handlers\;./include\Maths\;./include\Level\;./include\Scenes\;./include\TinyXML\;./source\;./source\Animations\;./source\CoreGame\;./source\Enemies\;./source\Graphical\;./source\Managers and Handlers\;./source\Maths\;./source\Level\;./source\Scenes\;./source\TinyXML\;./libs\SDL\include\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>./libs\SDL\lib\x86;./libs\;./libs\FMOD\api\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL.lib;SDL_image.lib;SDLmain.lib;opengl32.lib;glu32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./include\;./include\Animations\;./include\CoreGame\;./include\Enemies\;./include\FMOD\;./include\Graphical\;./include\Managers and Handlers\;./include\Maths\;./include\Level\;./include\Scenes\;./include\TinyXML\;./source\;./source\Animations\;./source\CoreGame\;./source\Enemies\;./source\Graphical\;./source\Managers and Handlers\;./source\Maths\;./source\Level\;./source\Scenes\;./source\TinyXML\;./libs\SDL\include\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>./libs\SDL\lib\x86;./libs;./libs\FMOD\api\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL.lib;SDL_image.lib;SDLmain.lib;opengl32.lib;glu32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Animations\Animation_Revive.cpp" />
+    <ClCompile Include="source\CoreGame\DeltaTime.cpp" />
+    <ClCompile Include="source\CoreGame\GameSystemInfo.cpp" />
+    <ClCompile Include="source\CoreGame\GnEngine.cpp" />
+    <ClCompile Include="source\CoreGame\main.cpp" />
+    <ClCompile Include="source\CoreGame\Player.cpp" />
+    <ClCompile Include="source\CoreGame\ScreenResolution.cpp" />
+    <ClCompile Include="source\Enemies\EnemyBase.cpp" />
+    <ClCompile Include="source\Enemies\Enemy_BlueSlime.cpp" />
+    <ClCompile Include="source\Enemies\Enemy_Bunny.cpp" />
+    <ClCompile Include="source\Enemies\Enemy_GreenSlime.cpp" />
+    <ClCompile Include="source\Enemies\Enemy_Imp.cpp" />
+    <ClCompile Include="source\Enemies\Enemy_Snake.cpp" />
+    <ClCompile Include="source\Enemies\Enemy_Succubus.cpp" />
+    <ClCompile Include="source\Graphical\AnimatedSprite.cpp" />
+    <ClCompile Include="source\Graphical\HUD.cpp" />
+    <ClCompile Include="source\Graphical\Texture.cpp" />
+    <ClCompile Include="source\Level\Camera.cpp" />
+    <ClCompile Include="source\Level\Level.cpp" />
+    <ClCompile Include="source\Level\Weather.cpp" />
+    <ClCompile Include="source\Managers and Handlers\AnimationHandler.cpp" />
+    <ClCompile Include="source\Managers and Handlers\AudioManager.cpp" />
+    <ClCompile Include="source\Managers and Handlers\CollisionHandler.cpp" />
+    <ClCompile Include="source\Managers and Handlers\DrawManager.cpp" />
+    <ClCompile Include="source\Managers and Handlers\FontManager.cpp" />
+    <ClCompile Include="source\Managers and Handlers\InputHandler.cpp" />
+    <ClCompile Include="source\Managers and Handlers\SceneManager.cpp" />
+    <ClCompile Include="source\Managers and Handlers\XMLHandler.cpp" />
+    <ClCompile Include="source\Maths\Vector2.cpp" />
+    <ClCompile Include="source\Scenes\Scene_MainMenu.cpp" />
+    <ClCompile Include="source\Scenes\Scene_PlayGame.cpp" />
+    <ClCompile Include="source\Scenes\Scene_SelectCharacter.cpp" />
+    <ClCompile Include="source\Scenes\Scene_SelectLevel.cpp" />
+    <ClCompile Include="source\Scenes\Scene_SplashScreen.cpp" />
+    <ClCompile Include="source\TinyXML\tinystr.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="source\Utility_Functions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Animations\Animation_Revive.h" />
+    <ClInclude Include="include\CoreGame\DeltaTime.h" />
+    <ClInclude Include="include\CoreGame\GameSystemInfo.h" />
+    <ClInclude Include="include\CoreGame\GnEngine.h" />
+    <ClInclude Include="include\CoreGame\Player.h" />
+    <ClInclude Include="include\CoreGame\ScreenResolution.h" />
+    <ClInclude Include="include\Enemies\EnemyBase.h" />
+    <ClInclude Include="include\Enemies\Enemy_BlueSlime.h" />
+    <ClInclude Include="include\Enemies\Enemy_Bunny.h" />
+    <ClInclude Include="include\Enemies\Enemy_GreenSlime.h" />
+    <ClInclude Include="include\Enemies\Enemy_Imp.h" />
+    <ClInclude Include="include\Enemies\Enemy_Snake.h" />
+    <ClInclude Include="include\Enemies\Enemy_Succubus.h" />
+    <ClInclude Include="include\Graphical\AnimatedSprite.h" />
+    <ClInclude Include="include\Graphical\HUD.h" />
+    <ClInclude Include="include\Graphical\Texture.h" />
+    <ClInclude Include="include\Level\Camera.h" />
+    <ClInclude Include="include\Level\Level.h" />
+    <ClInclude Include="include\Level\Weather.h" />
+    <ClInclude Include="include\Managers and Handlers\AnimationHandler.h" />
+    <ClInclude Include="include\Managers and Handlers\AudioManager.h" />
+    <ClInclude Include="include\Managers and Handlers\CollisionHandler.h" />
+    <ClInclude Include="include\Managers and Handlers\DrawManager.h" />
+    <ClInclude Include="include\Managers and Handlers\FontManager.h" />
+    <ClInclude Include="include\Managers and Handlers\InputHandler.h" />
+    <ClInclude Include="include\Managers and Handlers\SceneManager.h" />
+    <ClInclude Include="include\Managers and Handlers\XMLHandler.h" />
+    <ClInclude Include="include\Maths\Vector2.h" />
+    <ClInclude Include="include\Scenes\Scene_Base.h" />
+    <ClInclude Include="include\Scenes\Scene_MainMenu.h" />
+    <ClInclude Include="include\Scenes\Scene_PlayGame.h" />
+    <ClInclude Include="include\Scenes\Scene_SelectCharacter.h" />
+    <ClInclude Include="include\Scenes\Scene_SelectLevel.h" />
+    <ClInclude Include="include\Scenes\Scene_SplashScreen.h" />
+    <ClInclude Include="include\TinyXML\TinySTR.h" />
+    <ClInclude Include="include\TinyXML\TinyXML.h" />
+    <ClInclude Include="include\Utility_Functions.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

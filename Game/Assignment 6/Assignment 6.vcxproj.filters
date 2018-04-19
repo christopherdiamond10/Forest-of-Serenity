@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{c8c38394-cb31-492a-bd55-6d85fe07d0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{27c6d38c-f41f-45d9-aae6-4f449ed9e970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animations">
+      <UniqueIdentifier>{cda00200-9c6c-4d95-96fd-e2900d73a361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera &amp; Screen">
+      <UniqueIdentifier>{e56bde0a-10a9-47e4-9d05-297ec66d2de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreGame">
+      <UniqueIdentifier>{db1941aa-49cc-4c24-9ecb-df4c1f636d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeltaTime">
+      <UniqueIdentifier>{887302e3-d113-4be0-bbc5-bbb928857515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD">
+      <UniqueIdentifier>{c488dd62-28ca-4d3e-a4ea-60b4862b344e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{6c09661a-8b23-4d57-ac95-e93d0b1f552e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math Source">
+      <UniqueIdentifier>{fe388a89-5223-4347-8380-a643895d21c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{5d509932-2b18-441e-99ac-0a4a2b864dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers &amp; Handlers">
+      <UniqueIdentifier>{b0c67b47-a37a-4118-ba16-46e83eb68657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{97649ddf-50f7-4739-abf2-15c2529b216f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{4a02fd56-6561-484c-9388-fdcb0caf67f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite &amp; Texture">
+      <UniqueIdentifier>{c39780d5-197d-44fd-9f8a-9d444c0cda18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility_Functions">
+      <UniqueIdentifier>{0a0862fc-1456-4be2-a19b-57981ac0de6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Animations\Animation_Revive.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoreGame\ScreenResolution.cpp">
+      <Filter>Camera &amp; Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level\Camera.cpp">
+      <Filter>Camera &amp; Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoreGame\DeltaTime.cpp">
+      <Filter>DeltaTime</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Graphical\HUD.cpp">
+      <Filter>HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level\Level.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Maths\Vector2.cpp">
+      <Filter>Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoreGame\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scenes\Scene_MainMenu.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scenes\Scene_PlayGame.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scenes\Scene_SelectCharacter.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scenes\Scene_SplashScreen.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Graphical\AnimatedSprite.cpp">
+      <Filter>Sprite &amp; Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Graphical\Texture.cpp">
+      <Filter>Sprite &amp; Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utility_Functions.cpp">
+      <Filter>Utility_Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level\Weather.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoreGame\GnEngine.cpp">
+      <Filter>CoreGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoreGame\main.cpp">
+      <Filter>CoreGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemies\Enemy_BlueSlime.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemies\Enemy_Bunny.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemies\Enemy_GreenSlime.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemies\Enemy_Imp.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemies\Enemy_Snake.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemies\Enemy_Succubus.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemies\EnemyBase.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\CollisionHandler.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\DrawManager.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\InputHandler.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\SceneManager.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\XMLHandler.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\FontManager.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\AnimationHandler.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Managers and Handlers\AudioManager.cpp">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Scenes\Scene_SelectLevel.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CoreGame\GameSystemInfo.cpp">
+      <Filter>CoreGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\TinyXML\TinySTR.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TinyXML\TinyXML.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animations\Animation_Revive.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoreGame\ScreenResolution.h">
+      <Filter>Camera &amp; Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level\Camera.h">
+      <Filter>Camera &amp; Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoreGame\DeltaTime.h">
+      <Filter>DeltaTime</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphical\HUD.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level\Level.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Maths\Vector2.h">
+      <Filter>Math Source</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoreGame\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scenes\Scene_MainMenu.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scenes\Scene_PlayGame.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scenes\Scene_SelectCharacter.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scenes\Scene_SplashScreen.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphical\AnimatedSprite.h">
+      <Filter>Sprite &amp; Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphical\Texture.h">
+      <Filter>Sprite &amp; Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utility_Functions.h">
+      <Filter>Utility_Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level\Weather.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoreGame\GnEngine.h">
+      <Filter>CoreGame</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies\Enemy_BlueSlime.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies\Enemy_Bunny.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies\Enemy_GreenSlime.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies\Enemy_Imp.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies\Enemy_Snake.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies\Enemy_Succubus.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies\EnemyBase.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\CollisionHandler.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\DrawManager.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\InputHandler.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\SceneManager.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\XMLHandler.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\FontManager.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\AnimationHandler.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scenes\Scene_Base.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Managers and Handlers\AudioManager.h">
+      <Filter>Managers &amp; Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scenes\Scene_SelectLevel.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoreGame\GameSystemInfo.h">
+      <Filter>CoreGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
